@@ -2,6 +2,7 @@ function genRandomInt(max) {
   return Math.floor(Math.random() * (max + 1));
 }
 
+
 function Header() {
   const reactDescription = ["Fundamental", "Core", "Essential"];
   const description = reactDescription[genRandomInt(2)];
